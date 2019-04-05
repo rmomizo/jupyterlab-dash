@@ -1,10 +1,9 @@
 # jupyterlab-dash-dev-fork
 
+Note: this fork is being used to launch a plotly dash app from binder. All original jupyterlab-dash files are owned by plotly/jupyerlab-dash and can be found at (https://github.com/plotly/jupyterlab-dash).
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rmomizo/jupyterlab-dash/master?urlpath=lab/tree/base.ipynb)
 A JupyterLab extension for rendering Plotly Dash apps as a separate window in JupyterLab :tada:
 
-![JupyterLab and Dash Demo Video](https://user-images.githubusercontent.com/1280389/47668836-da9f4280-db7f-11e8-8523-8663b6a5347f.gif)
-
-**Note:**: This extension does not currently support Windows or Python 2
 
 
