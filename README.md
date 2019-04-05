@@ -1,4 +1,4 @@
-# jupyterlab-dash
+# jupyterlab-dash-dev-fork
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rmomizo/jupyterlab-dash/master?urlpath=lab/tree/base.ipynb)
 A JupyterLab extension for rendering Plotly Dash apps as a separate window in JupyterLab :tada:
@@ -7,77 +7,4 @@ A JupyterLab extension for rendering Plotly Dash apps as a separate window in Ju
 
 **Note:**: This extension does not currently support Windows or Python 2
 
-## Prerequisites
 
-- JupyterLab
-
-## Installation
-The jupyterlab-dash library requires both a Python package and a JupyterLab
-extension.
-
-First, install the Python package using either pip...
-```
-$ pip install jupyterlab-dash==0.1.0a2
-```
-
-or conda (but not both!).
-```
-$ conda install -c plotly jupyterlab-dash=0.1.0a2
-```
-
-Then, install the JupyterLab extension 
-```
-$ jupyter labextension install jupyterlab-dash@0.1.0-alpha.2
-```
-
-## Development Installation
-
-If you'd like to install jupyterlab-dash for development
-
-```bash
-$ git clone https://github.com/plotly/jupyterlab-dash
-$ cd jupyterlab-dash
-
-# Install Python package
-$ pip install -e .
-
-# Install Javascript dependencies
-$ npm install # or yarn
-
-# Build JupyterLab extension
-$ npm run build # or yarn build
-$ jupyter labextension link .
-```
-
-To rebuild the JupyterLab extension:
-
-```bash
-$ npm run build
-$ jupyter lab build
-```
-
-To rebuild the JupyterLab extension automatically as the source changes:
-
-```bash
-# In one terminal tab, watch the jupyterlab-dash directory
-$ npm run watch # or yarn watch
-
-# In another terminal tab, run jupyterlab with the watch flag
-$ jupyter lab --watch
-```
-
-## Usage
-
-```python
-import jupyterlab_dash
-import dash
-import dash_html_components as html
-
-viewer = jupyterlab_dash.AppViewer()
-
-app = dash.Dash(__name__)
-
-app.layout = html.Div('Hello World')
-
-viewer.show(app)
-```
