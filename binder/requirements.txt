@@ -50,13 +50,13 @@ itsdangerous==1.1.0
 jedi==0.13.3
 Jinja2==2.10
 jsonschema==3.0.1
-jupyter==1.0.0
+
 jupyter-client==5.2.4
 jupyter-console==6.0.0
 jupyter-core==4.4.0
 jupyter-sphinx==0.1.4
 jupyter-themer==0.4.0
-jupyterlab==0.35.4
+
 -e git+https://github.com/plotly/jupyterlab-dash@6733ebae960c920dd50cd7d50e4717ec0003ce58#egg=jupyterlab_dash
 jupyterlab-server==0.2.0
 keyring==18.0.0
@@ -70,7 +70,7 @@ mistune==0.8.4
 msgpack==0.6.1
 networkx==2.2
 
-notebook==5.7.6
+
 numpy==1.16.2
 numpydoc==0.8.0
 oauthlib==3.0.1
