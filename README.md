@@ -1,4 +1,4 @@
-# jupyterlab-dash-dev-fork
+# tweet_network
 
 Note: this fork is being used to create a plotly dash environment in Jupyter labs that will launch dash apps from Binder. 
 
