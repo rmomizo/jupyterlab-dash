@@ -24,4 +24,6 @@ Twython MIT License - (https://github.com/ryanmcgrath/twython/blob/master/LICENS
 ## Pandas
 Pandas BSD-3 License - (https://github.com/pandas-dev/pandas/blob/master/LICENSE)
 
+## Natural Language Toolkit 
 
+NLTK Apache Version 2 License - (https://github.com/nltk/nltk/blob/develop/LICENSE.txt)
